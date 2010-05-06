@@ -1,3 +1,6 @@
 [submodule "vendors/raphael"]
 	path = vendors/raphael
 	url = git://github.com/DmitryBaranovskiy/raphael.git
+[submodule "vendors/jquery"]
+	path = vendors/jquery
+	url = git://github.com/jquery/jquery.git
