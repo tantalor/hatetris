@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+    <script src="vendors/raphael/raphael.js" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/hatetris.js" type="text/javascript" charset="utf-8"></script>
+    
+    <style type="text/css" media="screen">
+      div#canvas {
+        margin: 50px auto 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="canvas"></div>
+    <script type="text/javascript" charset="utf-8">
+      var width = 200, height = 500;
+      // get the div#canvas and set its bounds
+      var canvas = document.getElementById('canvas');
+      canvas.style.width = width + 'px';
+      canvas.style.height = height + 'px';
+      // instantiate hatetris in the div#canvas, draw a border
+      var hatetris = Raphael(canvas, width, height).hatetris();
+      hatetris.rect(0, 0, width-1, height-1);
+    </script>
+  </body>
+</html>
