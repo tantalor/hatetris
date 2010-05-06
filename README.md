@@ -2,6 +2,10 @@
 
 **hatetris** is a reimplementation of Sam Hughes' [HATETRIS](http://qntm.org/files/hatetris/hatetris.html).
 
+# Building
+
+Run `make` to load all of hatetris' dependencies.
+
 # License
 
 This implementation of hatetris is licensed under the [MIT Licence](http://en.wikipedia.org/wiki/MIT_License).
